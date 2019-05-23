@@ -1,0 +1,7 @@
+{
+    "env": {
+        "MONGO_USER": "senthil",
+        "MONGO_PASSWORD": "senthil15796",
+        "MONGO_DB": "gql-ninja"
+    }
+}
