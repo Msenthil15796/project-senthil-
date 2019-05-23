@@ -27,7 +27,7 @@ mongoose
     `mongodb+srv://${process.env.MONGO_USER}:${
       process.env.MONGO_PASSWORD
     }@cluster0-5acwt.mongodb.net/${process.env.MONGO_DB}?retryWrites=true`
-    // mongodb+srv://senthil:<password>@cluster0-5acwt.mongodb.net/test?retryWrites=true
+  //GO TO <NODEMON.JSON> FILE AND ADD YOUR DATABASE DETAILS
   )
   .then(() => {
     app.listen(3000);
