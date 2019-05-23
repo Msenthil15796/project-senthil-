@@ -34,7 +34,7 @@ module.exports = {
       throw new Error('Password is incorrect!');
     }
     const token = jwt.sign(
-      { userId: user.id, email: user.email  },
+      { userId: user.id, email: user.email },
       'somesupersecretkey',
       {
         expiresIn: '1h'
